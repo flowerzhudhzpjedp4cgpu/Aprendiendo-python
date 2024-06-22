@@ -18,7 +18,7 @@ conjunto = {"Yung Lion", "Soy Cristian", True, 1.85, "Yung Lion" } # + "Soy Cris
 
 #print(conjunto[3]) -> no puede acceder al 
 
-#creando un diccionario (dict)
+#creando un diccionario (dict) (la estructura es key : value y separamos con comas)
 diccionario = {
     'nombre' : "Yung Lion",
     'canal' : "Soy Cristian",
@@ -26,4 +26,5 @@ diccionario = {
     'altura' : 1.85,
     'dato_duplicado' : "Soy Cristian"   
 }
-print(diccionario['altura'])
+print(lista[3])
+print(diccionario['altura'] + 2)

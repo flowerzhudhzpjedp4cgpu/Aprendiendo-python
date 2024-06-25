@@ -13,6 +13,7 @@ if mayusc == "SI":
         "nomina"
     )
     print("Conexión típica: ", type(conexion_bd), conexion_bd)
+    print("nomina ->",conexion_bd.count("nomina"))
     
     conexion_completa = (
         conexion_bd,
@@ -24,6 +25,7 @@ if mayusc == "SI":
          type(conexion_completa),        
         "\n"
     )
+    print("Tuplas index",conexion_completa.index(conexion_bd))
     for i in range(0, len(conexion_completa)):
         if i >= 0:
             print(i, conexion_completa[i])

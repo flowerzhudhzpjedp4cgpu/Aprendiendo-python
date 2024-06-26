@@ -15,6 +15,11 @@ print("====================")
 print("\n Datos de participante")
 print("---------------------------")
 print("Keys : %s" % str(versiones))
+
+#operaciones con tipo diccionario con funciones propias
+print("\nClaves de diccionario:",versiones.keys())
+print("\nValores de diccionario:",versiones.values())
+print("\nElementos de diccionario:",versiones.items())
 print("\n")
 
 try:#bloque de código a comprobar
@@ -31,6 +36,10 @@ try:#bloque de código a comprobar
 
     print("\n")
 
+    #operador integrado in
+    for key, value in iter(versiones.items()):
+        print(f"Clave: {key}, posee el valor: {value}")
+    print("\n")
     print("Cédula de identidad: ", versiones["cedula"])
     print("Nombre completo: ", versiones["nombres"] + " con apellido " + versiones["apellidos"])
 
